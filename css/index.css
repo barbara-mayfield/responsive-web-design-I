@@ -101,8 +101,10 @@ header nav {
 
 @media (max-width: 800px) {
 	header nav {
-	margin: 62px 10px 30px 8px;
+	margin: 100px 10px 40px 20px;
 	padding: 1px;
+	align-items: space-around;
+	width: 720px;
 	}
 }
 
@@ -175,6 +177,14 @@ img.resize {
 	padding: 0px 75px;
 }
 
+@media (max-width: 800px) {
+	.cta .txt-left {
+		margin: 26px 198px 45px 240px;
+		justify-content: center;
+		padding: 0px;
+	}
+}
+
 .cta .txt-left .start-button {
 	align-self: center;
 	background: white;
@@ -186,6 +196,14 @@ img.resize {
   	border: 1px solid black;
 	  cursor: pointer;
 	  width: 200px;
+}
+
+@media (max-width: 800px) {
+	.cta .txt-left .start-button {
+	margin: 11px 10px 10px 50px;
+	font-family: Roboto, sans-serif;
+	padding: 10px 8px 10px 44px;
+	}
 }
 
 .cta .txt-left .start-button:hover {
