@@ -200,9 +200,11 @@ img.resize {
 
 @media (max-width: 800px) {
 	.cta .txt-left .start-button {
-	margin: 11px 10px 10px 50px;
-	font-family: Roboto, sans-serif;
-	padding: 10px 8px 10px 44px;
+		margin: 13px 10px 10px 73px;
+    	font-family: Roboto, sans-serif;
+    	padding: 10px 8px 10px 10px;
+    	width: 160px;
+    	height: 33px;
 	}
 }
 
@@ -268,6 +270,15 @@ img.resize {
 
 .main-content .top-content .text-content:last-child {
 	margin-right: 0;
+}
+
+@media (max-width: 800px) {
+	.main-content .top-content .text-content {
+		justify-content: space-between;
+		width: 403px;
+    	align-self: baseline;
+    	margin-right: 10px;
+	}
 }
 
 .main-content .main-services {
@@ -357,6 +368,13 @@ img.resize {
 	padding: 0 10px;
 }
 
+@media (max-width: 800px) {
+	.main-content .middle-img {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
 .main-content .bottom-content {
 	display: flex;
 	flex-flow: row wrap;
@@ -367,6 +385,16 @@ img.resize {
 	width: 275px;
 	align-self: baseline;
 	margin-right: 12px;
+}
+
+@media (max-width: 800px) {
+	.main-content .bottom-content {
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		width: 88%;
+    	align-self: baseline;
+    	margin-left: 10px;
+	}
 }
 
 .main-content .bottom-content .text-content:last-child {
@@ -439,6 +467,14 @@ img.resize {
 	margin-top: 57px;
 	border-top: 1px solid black;
 	padding: 39px 10px 0;
+}
+
+@media (max-width: 800px) {
+	.contact {
+		margin-top: 57px;
+		border-top: 2px solid black;
+		padding: 35px 22px;
+	}
 }
 
 .contact p {
