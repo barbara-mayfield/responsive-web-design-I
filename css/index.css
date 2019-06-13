@@ -124,6 +124,7 @@ header nav {
 
 @media (max-width: 500px) {
 	header nav {
+	list-style: none;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: flex-start;
@@ -132,7 +133,10 @@ header nav {
 	width: 550px;
     height: 400px;
     align-items: center;
-    margin: 80px 10px 40px 10px;
+	/* margin: 80px 10px 40px 10px; */
+	margin-top: 50px;
+    margin-left: 0px;
+	padding: 0px;
 	}
 }
 
@@ -147,11 +151,21 @@ header nav a {
 	header nav a {
 		margin: 0px;
 		font-size: 20px;
+		text-align: center;
 		height: 63px;
-		justify-content: space-between;
-		/* border-top:solid black 1px; */
-		/* width: 482px; */
+		border-top:solid black 1px;
+		width: 482px;
 		text-decoration: none;
+  		display: block;
+		  color: gray;
+	}
+
+	.link {
+		padding: 20px;
+	}
+
+	header nav a:last-child{
+		border-bottom: 1px solid black;
 	}
 }
 
