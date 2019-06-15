@@ -64,20 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	width: 880px;
-	margin-left: 200px;
-}
-
-@media (max-width: 800px) {
-	.container{
-	margin: 0 auto;
-	}
-}
-
-@media (max-width: 500px) {
-	.container {
-	width: 500px;
-	}
+	width: 100%;
+	margin: auto 0;
 }
 
 header {
